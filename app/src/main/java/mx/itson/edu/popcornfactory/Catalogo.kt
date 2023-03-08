@@ -224,7 +224,7 @@ class PeliculaAdapter: BaseAdapter{
             intent.putExtra("imagen" , pelicula.image)
             intent.putExtra("header" , pelicula.header)
             intent.putExtra("sinopsis" , pelicula.sinopsis)
-            intent.putExtra("numberSeats" , (20-pelicula.seats.size))
+            intent.putExtra("numberSeats" , (20 - pelicula.seats.size).toString())
             context!!.startActivity(intent)
         }
 

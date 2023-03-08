@@ -38,6 +38,8 @@ class SeatSelection : AppCompatActivity() {
                 row2.clearCheck()
                 row3.clearCheck()
                 row4.clearCheck()
+
+                row1.check(checkedId)
             }
         }
 
@@ -46,6 +48,8 @@ class SeatSelection : AppCompatActivity() {
                 row1.clearCheck()
                 row3.clearCheck()
                 row4.clearCheck()
+
+                row2.check(checkedId)
             }
         }
 
@@ -54,6 +58,8 @@ class SeatSelection : AppCompatActivity() {
                 row1.clearCheck()
                 row2.clearCheck()
                 row4.clearCheck()
+
+                row3.check(checkedId)
             }
         }
 
@@ -62,6 +68,8 @@ class SeatSelection : AppCompatActivity() {
                 row1.clearCheck()
                 row2.clearCheck()
                 row3.clearCheck()
+
+                row4.check(checkedId)
             }
         }
     }
